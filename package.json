@@ -1,0 +1,38 @@
+{
+  "name": "desafio-back_nodejs",
+  "version": "1.0.0",
+  "description": "Crud rest api with mongo db",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnnySilvaa/Desafio-back_nodejs.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "mongo",
+    "db"
+  ],
+  "author": "Johnny Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnnySilvaa/Desafio-back_nodejs/issues"
+  },
+  "homepage": "https://github.com/JohnnySilvaa/Desafio-back_nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.14",
+    "sequelize": "^4.42.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
